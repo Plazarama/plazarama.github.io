@@ -20,9 +20,10 @@
   {% endif %}
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
+
     <article class="post">
         <header>
-            <h1>{{ paginator.posts[0].title }}</h1>
+            <a href="{{ site.baseurl }}{{ paginator.posts[0].url | remove_first: '/' }}"><h1>{{ paginator.posts[0].title }}</h1></a>
             <h2 class="headline">{{ paginator.posts[0].date | date:"%B %-d, %Y" }}</h2>
         </header>
         <section id="post-body">
