@@ -72,5 +72,9 @@ Now that we are tracking the changes, we should commit for have a log of the cha
 
 	git commit -m "Init commit"
 
-###Creating a remote repository
+###Creating a remote repository in Github
+
+Now we have to go to [Github](!github.com) and if we don't have an account we have to create one. Once created we're going to create a new repository. First click in the cross at the right-up corner and click in `New repository`. Give a name to the repository and a description and don't let the rest default. Now click on Create repository button. 
+
+![Creating a new repo on github](http://i.imgur.com/3ZFaDrg.gif)
 
