@@ -44,7 +44,7 @@ And there are some basic Git commands to work with it:
 You can take a look at the very nice cheat sheet made by the guys from Github [Git Cheat-Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf).
 
 
-###Creating a new repo
+###Creating a new repo and adding something to it
 
 Let's create a new repository in our local machine. For this we're going to create a folder and create a new directory with Git:
 
@@ -68,4 +68,9 @@ If we add it now and see the status again we should see it under the tracked lis
 
 ![Adding file](http://i.imgur.com/ZuFxBFB.gif)
 
+Now that we are tracking the changes, we should commit for have a log of the changes we made.
+
+	git commit -m "Init commit"
+
+###Creating a remote repository
 
