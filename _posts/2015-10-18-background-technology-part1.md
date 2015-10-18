@@ -39,6 +39,7 @@ And there are some basic Git commands to work with it:
     git add [file]: Add the file to the next commit. Tip: git add . (adds everything new in the folder)
     git commit -m "[description]": Save the commit into the history
     git push [alias] [branch]: Uploads the local branch to the remote repository
+    git pull: Update the local repository
    
 You can take a look at the very nice cheat sheet made by the guys from Github [Git Cheat-Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf).
 
