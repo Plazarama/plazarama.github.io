@@ -18,7 +18,7 @@ And install it. Is recommended to let the things in the installer as defaults.
 
 Install a Git GUI Interface for easy interaction. One of the most useds is the client from Github: [Github Desktop](https://desktop.github.com/)
 
-With Git, we have installed the git bash, that is like a command line but with the powerful of the unix command-lines. I will show you basic Bash commands to navigate and operate in folders:d
+With Git, we have installed the git bash, that is like a command line but with the powerful of the unix command-lines. I will show you basic Bash commands to navigate and operate in folders:
 
 ```bash
 cd [folderName]: access the folder
