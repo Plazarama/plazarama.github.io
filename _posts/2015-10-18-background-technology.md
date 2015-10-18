@@ -12,3 +12,8 @@ Git is the actual standard in distributed version control. This is easier when y
 
 
 ###Setup Git
+
+Download Git: [git-scm](http://git-scm.com/)
+And install it. Is recommended to let the things in the installer as defaults.
+
+Install some Git GUI for easy interaction. One of the most useds is the client from Github: [Github Desktop](https://desktop.github.com/)
