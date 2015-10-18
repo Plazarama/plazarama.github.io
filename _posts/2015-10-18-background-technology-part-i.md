@@ -78,3 +78,10 @@ Now we have to go to [Github](!github.com) and if we don't have an account we ha
 
 ![Creating a new repo on github](http://i.imgur.com/3ZFaDrg.gif)
 
+And then, we have to tell to our local repository where have to upload the files (the remote repo), so you can copy the commands directly from the page after creating the repo:
+
+	git remote add origin https://github.com/AlexRex/newRepoTest.git
+	git push -u origin master
+    
+The first one adds the remote repository and the second one upload the files to Github.
+
