@@ -65,6 +65,6 @@ If we add it now and see the status again we should see it under the tracked lis
 	git add .
     git status
 
-![Adding file]({{ site.baseurl }}/bg-tech/git-status.gif)
+![Adding file](http://i.imgur.com/py74190.png)
 
 
