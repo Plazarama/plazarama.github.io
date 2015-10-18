@@ -43,7 +43,7 @@ You can take a look at the very nice cheat sheet made by the guys from Github [G
 
 ###Creating a new repo
 
-We're going to create a new repository in our local machine. For this we're going to create a folder and create a new directory with Git:
+Let's create a new repository in our local machine. For this we're going to create a folder and create a new directory with Git:
 
 ```bash	
 mkdir newProject
