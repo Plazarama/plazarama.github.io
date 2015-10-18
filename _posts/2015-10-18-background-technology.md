@@ -28,6 +28,8 @@ With Git, we have installed the git bash, that is like a command line but with t
     cat [fileName]: show content of file
     mkdir [folderName]: create new folder
     touch [fileName]: create new file
+
+You can read a more deep Cheat Sheet here: [Linux Bash Cheat Sheet](https://docs.google.com/viewer?url=http%3A%2F%2Fcli.learncodethehardway.org%2Fbash_cheat_sheet.pdf)
     
 And there are some basic Git commands to work with it:
 
@@ -63,6 +65,6 @@ If we add it now and see the status again we should see it under the tracked lis
 	git add .
     git status
 
-![Adding file](http://g.recordit.co/5ejr3qkxFb.gif)
+![Adding file](bg-tech)
 
 
