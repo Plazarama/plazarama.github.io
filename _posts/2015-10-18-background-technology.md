@@ -65,6 +65,6 @@ If we add it now and see the status again we should see it under the tracked lis
 	git add .
     git status
 
-![Adding file](bg-tech)
+![Adding file](bg-tech/git-status.gif)
 
 
