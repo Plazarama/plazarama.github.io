@@ -17,3 +17,13 @@ Download Git: [git-scm](http://git-scm.com/)
 And install it. Is recommended to let the things in the installer as defaults.
 
 Install a Git GUI Interface for easy interaction. One of the most useds is the client from Github: [Github Desktop](https://desktop.github.com/)
+
+With Git, we have installed the git bash, that is like a command line but with the powerful of the unix command-lines. I will show you basic Bash commands to navigate and operate on folders:
+
+	cd folderName: access the folder
+    cd .. : go up one folder
+	ls: List the files and folders in the directory
+    rm folder-fileName: remove the folder or file
+    cat fileName: show content of file
+    mkdir folderName: create new folder
+    touch fileName: create new file
