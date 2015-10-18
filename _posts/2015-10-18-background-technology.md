@@ -20,13 +20,19 @@ Install a Git GUI Interface for easy interaction. One of the most useds is the c
 
 With Git, we have installed the git bash, that is like a command line but with the powerful of the unix command-lines. I will show you basic Bash commands to navigate and operate in folders:
 
-	cd folderName: access the folder
+	cd [folderName]: access the folder
     cd .. : go up one folder
 	ls: List the files and folders in the directory
-    rm folder-fileName: remove the folder or file
-    cat fileName: show content of file
-    mkdir folderName: create new folder
-    touch fileName: create new file
+    rm [folder-fileName]: remove the folder or file
+    cat [fileName]: show content of file
+    mkdir [folderName]: create new folder
+    touch [fileName]: create new file
+    
+And there are some basic Git commands to work with it:
+
+	git init [project-name]: Creates a new local repository with specified name
+    git clone [url]: Downloads a project from the url
+	
     
 ###Creating a new repo
 
