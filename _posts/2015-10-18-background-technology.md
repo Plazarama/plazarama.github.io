@@ -38,12 +38,14 @@ And there are some basic Git commands to work with it:
     git push [alias] [branch]: Uploads the local branch to the remote repository
    
 You can take a look at the very nice cheat sheet made by the guys from Github [Git Cheat-Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf).
-	
-    
+
+
 ###Creating a new repo
 
 we're going to create a new repository in our local machine. For this we're going to create a folder and create a new directory with Git:
-	
-    mkdir newProject
-    cd newProject
-    git init
+
+```bash	
+mkdir newProject
+cd newProject
+git init
+```
