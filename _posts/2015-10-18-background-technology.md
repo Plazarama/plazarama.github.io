@@ -1,9 +1,7 @@
 ---
-published: true
+published: false
 description: Background technology guide
 ---
 
 
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+In this post we will introduce the background technology involved in the project. This means: The technology which we are going to use to manage and develop the project, not the actual technology that runs the project.
