@@ -5,6 +5,7 @@ title: Background Technology
 ---
 
 
+
 In this post we will introduce the background technology involved in the project. This means: The technology which we are going to use to manage and develop the project, not the actual technology that runs the project.
 
 ##Version control: Git & Github
@@ -49,3 +50,19 @@ mkdir newProject
 cd newProject
 git init
 ```
+
+Now this is an empty repo. Let's create something to add to our repo and see the status of the repo:
+
+	touch README.md 
+	git status
+
+With the first command we create a markdown file, and with the second we get the actual status of the files in the repo. We see that the README.md file is in red color under the Untracked list. This means that the file is not being tracked for the next commit. 
+
+If we add it now and see the status again we should see it under the tracked list of changes or new files:
+
+	git add .
+    git status
+
+![Adding file](http://g.recordit.co/5ejr3qkxFb.gif)
+
+
