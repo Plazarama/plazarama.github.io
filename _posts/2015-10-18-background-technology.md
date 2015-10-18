@@ -27,3 +27,11 @@ With Git, we have installed the git bash, that is like a command line but with t
     cat fileName: show content of file
     mkdir folderName: create new folder
     touch fileName: create new file
+    
+###Creating a new repo
+
+we're going to create a new repository in our local machine. For this we're going to create a folder and create a new directory with Git:
+	
+    mkdir newProject
+    cd newProject
+    git init
