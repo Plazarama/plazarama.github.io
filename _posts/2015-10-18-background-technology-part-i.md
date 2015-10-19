@@ -6,6 +6,7 @@ title: "Background Technology Part I: Git and Github"
 
 
 
+
 In this post we will introduce the background technology involved in the project. This means: The technology which we are going to use to manage and develop the project, not the actual technology that runs the project.
 
 ##Version control: Git & Github
@@ -80,12 +81,10 @@ Now we have to go to [Github](!github.com) and if we don't have an account we ha
 
 And then, we have to tell to our local repository where have to upload the files (the remote repo), so you can copy the commands directly from the page after creating the repo:
 
-	git remote add origin https://github.com/AlexRex/newRepoTest.git
+	git remote add origin https://github.com/[GITHUBNAME]/[REPONAME].git
 	git push -u origin master
     
 The first one adds the remote repository and the second one upload the files to Github.
 
 ####To-do:
 	+ Branch
-
-
