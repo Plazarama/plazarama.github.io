@@ -1,7 +1,7 @@
 ---
 published: true
 description: Background technology guide
-title: "Background Technology Part I: Git and Github"
+title: "Background Technology I: Git and Github"
 ---
 
 
