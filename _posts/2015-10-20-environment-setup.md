@@ -1,6 +1,7 @@
 ---
 published: true
 title: Environment Setup
+Description: Installing the environment to start working.
 ---
 
 Our stack of development is going to be based in the MEAN Stack without the A for Angular. This is because Angular is a hard and difficult technology to learn and we think that what gives to us is not an essential plus to add it to the equation. 
