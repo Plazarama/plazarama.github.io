@@ -54,4 +54,22 @@ The last line blinds the port *8081* to our app. Finally output on the console s
 	// Console will print the message
 	console.log('Server running at http://127.0.0.1:8081/');
 
+
+The final *index.js* file should be like this:
+
+    var http = require("http");
+    
+    http.createServer(function (request, response) {
+    
+       // Send the HTTP header 
+       // HTTP Status: 200 : OK
+       // Content Type: text/plain
+       response.writeHead(200, {'Content-Type': 'text/plain'});
+       
+       // Send the response body as "Hello World"
+       response.end('Hello World\n');
+    }).listen(8081);
+    
+    // Console will print the message
+    console.log('Server running at http://127.0.0.1:8081/');
 	
