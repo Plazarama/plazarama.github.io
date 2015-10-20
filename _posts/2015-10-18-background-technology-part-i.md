@@ -85,7 +85,14 @@ And then, we have to tell to our local repository where it has to upload the fil
 	git remote add origin https://github.com/[GITHUBNAME]/[REPONAME].git
 	git push -u origin master
     
-The first one adds the remote repository with the name `origin` and the second one upload the files to Github.
+The first one adds the remote repository with the name *origin* and the second one upload the files to Github.
+
+###Branching
+Branching is a very useful concept to know. When we are using Git we are allways using a branch where our commits and stuff goes. By default this is the Master branch. 
+
+Think we have a game and we want to add a new feature to this game as for example the score of the game. So in order to do this we will create a new branch called for example *feature_score*. So now when we are in this branch all the stuff we made is not present in the master branch, so for example if we do some mistakes and break the game we can destroy this branch or change to the master branch and the game stil running (without the score, of course). Its a bit difficult to understand without seeing it, but let's try to get it with some examples.
+
+
 
 ####To-do:
 	+ Branch
