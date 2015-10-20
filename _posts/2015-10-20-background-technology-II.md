@@ -1,7 +1,9 @@
 ---
 published: true
 title: Background Technology II
+Description: Background technology part II.
 ---
+
 
 
 #The Editor: Sublime-Text 3
@@ -88,4 +90,3 @@ We are going to use the Google's platform to create documents and share files be
 [Slack](https://slack.com/) is a chat service for a teams with a lot of useful things like Git integration, search, and channels about topics.
 
 This is our [Slack Url](https://plazarama.slack.com) if you want to join!
-
