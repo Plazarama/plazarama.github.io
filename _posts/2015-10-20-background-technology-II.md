@@ -84,6 +84,8 @@ We are going to use the Google's platform to create documents and share files be
 
 ## Communication: Slack
 ![Slack](http://i.imgur.com/PSP8t5e.png)
-[Slack](https://slack.com/) is a chat service for a teams with a lot of useful things like Git integration, search, and channels about topics. 
+
+[Slack](https://slack.com/) is a chat service for a teams with a lot of useful things like Git integration, search, and channels about topics.
+
 This is our [Slack Url](https://plazagrama.slack.com) if you want to join!
 
