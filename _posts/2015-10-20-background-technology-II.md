@@ -32,7 +32,7 @@ One of the most used commands. You can access everything from here: Installing p
 	ctrl + /
 #### Toggle sidebar
 	ctrl + k + b
-####Duplicate line
+#### Duplicate line
 	ctrl + shift + d
     
 
