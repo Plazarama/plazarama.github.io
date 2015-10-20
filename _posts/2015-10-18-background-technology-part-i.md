@@ -104,8 +104,24 @@ Now in the git bash we can see we are in the feature_score branch. Now add the s
     git add score.txt
     git commit -m "added score"
     git push origin feature_score
+    
+To look what happend list the folder with `ls`. And you should see two files:
+	README.md
+    score.txt
 
+Now we're changing to the master branch, which en theorical doesn't have the score yet:
 
+	git checkout master
+    ls
 
+Now when we list the folder again we only see the `README.md` file. That's it! We have a new feature. So if everything is working, now we are going to merge it into the master branch, so first we should change our active branch to the master, and use `git merge [branch]` to merge:
+
+	git checkout master
+	git merge feature_score
+    
+Now we have the both branchs merged but locally, let's push to Github to the other users with `git push origin master`. 
+
+	
+    
 ####To-do:
 	+ Branch
