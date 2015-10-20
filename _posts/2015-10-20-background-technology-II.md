@@ -38,7 +38,7 @@ One of the most used commands. You can access everything from here: Installing p
 
 ## Installing a new theme
 
-This is another time a decision of each one, but I like to use a different theme on the editor. I use this: [SpaceGray](https://github.com/kkga/spacegray)
+This is another time a decision of each one, but I like to use a different theme on the editor. I use this: [SpaceGray](https://github.com/kkga/spacegray).
 
 For installing it we are going to use the Package Control, so open the command palette *ctrl + shift + p* and type **Package Control: Install Package**. *Tip: You don't need to write the full sentence: just write some letters in it as 'packin'*. 
 
