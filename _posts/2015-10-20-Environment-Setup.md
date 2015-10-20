@@ -7,6 +7,10 @@ Our stack of development is going to be based in the MEAN Stack without the A fo
 
 So we're going to use *Node.js, Express and MongoDB* in the backend and *HTML, CSS, Javascript(jQuery)* at the frontend. 
 
+And for the communication between the clients we're going to use *Socket.io*.
+
 Let's setup our environment to work with it.
 
-#NodeJS
+#Node.js
+
+Node.js is going to be our main platform at the server side. Let's install it
