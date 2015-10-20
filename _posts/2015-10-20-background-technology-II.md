@@ -47,5 +47,5 @@ Now find the theme **Theme - Spacegray** and hit Enter. Wait for the installatio
 	"theme": "Spacegray.sublime-theme",
   	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 
-This is a JSON file so remember to correctly add the commas at the end of each sentence (less the last one) or it won't work. 
+This is a JSON file so remember to correctly add the commas at the end of each sentence (less the last one) or it won't work. Restart Sublime and you have it.
 
