@@ -77,5 +77,9 @@ For managing the project and communicate between the team we are going to use th
 ![Trello](http://i.imgur.com/pKF6WP9.png)
 
 [Trello](trello.com) is a plataform where you can create a board and share it with the rest of the team. In this board you have cards and lists and you can see what is happening in a visual way. You can add dates, tags, checklists, images, etc. 
+
+## Share: Drive
+![Drive](http://i.imgur.com/ZoqAdmv.jpg)
+We are going to use the Google's platform to create documents and share files between us.
 	
 
