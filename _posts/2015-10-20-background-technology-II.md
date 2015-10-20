@@ -83,7 +83,7 @@ For managing the project and communicate between the team we are going to use th
 We are going to use the Google's platform to create documents and share files between us.
 
 ## Communication: Slack
-![Slack](http://i.imgur.com/oklSzMm.png)
+![Slack](http://i.imgur.com/PSP8t5e.png)
 [Slack](https://slack.com/) is a chat service for a teams with a lot of useful things like Git integration, search, and channels about topics. 
 This is our [Slack Url](https://plazagrama.slack.com) if you want to join!
 
