@@ -35,3 +35,9 @@ One of the most used commands. You can access everything from here: Installing p
 	ctrl + k + b
 ####Duplicate line
 	ctrl + shift + d
+    
+
+## Installing a new theme
+
+This is another time a decision of each one, but I like to use a different theme on the editor. I use this: [SpaceGray](https://github.com/kkga/spacegray)
+
