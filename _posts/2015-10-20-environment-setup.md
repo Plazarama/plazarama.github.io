@@ -136,7 +136,6 @@ Now initialize the server in the port 3000 and print it in the console:
     
     
 So the final file is like this:
-kjhlkj
 
 {% highlight javascript %}
     var express = require('express');
@@ -154,5 +153,4 @@ kjhlkj
     });
 {% endhighlight %}
 
-high
 Now go to [http://localhost:3000/](http://localhost:3000/) and see what happens.
