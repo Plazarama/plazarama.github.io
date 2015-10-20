@@ -25,7 +25,7 @@ You should see something like: *v4.2.1*. So we're in!
 
 Now with Node.js we have installed NPM as well. This is the package manager for Node, which we can install packages to our projects or to our computer. 
 
-Let's create a simple application: An http server. For this create a new folder and initialize it with *npm init*. *npm init* is going to ask us some data about the project and it will create a package.json file whici I will explain in the next section. You can simple press enter to accept the default for them. 
+Let's create a simple application: An http server. For this create a new folder and initialize it with *npm init*. *npm init* is going to ask us some data about the project and it will create a package.json file which I will explain in the next section. You can simple press enter to accept the default for them. 
 
 	mkdir myapp
     cd myapp
@@ -83,3 +83,30 @@ Now on the bash (make sure we are in the folder of the project) type:
 	node index.js
 
 And in our browser (mine is Chrome) go to: [localhost:8081](localhost:8081). And see the output.
+
+#Express.js
+
+Now let's install Express. Express is a framework that provide us all the necessary to make Web Applications.
+
+For install it in our application do this:
+	npm install express --save
+
+This will install Express in our application, the *--save* flag tells to npm to add it to the *package.json* file. The *package.json* file in addition to having data about our project also have de dependencies (the packages that need to be installed) of the project. 
+
+If we take a look now on the file we will see something like this:
+
+    {
+      "name": "httpserver",
+      "version": "1.0.0",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "Alex",
+      "license": "ISC",
+      "description": "simple http server",
+      "dependencies": {
+        "express": "^4.13.3"
+      }
+    }
+
