@@ -61,8 +61,8 @@ Add hightlight to bracket in the code for viewing it easily.
 #### Emmet
 Powerful improvement for CSS and HTML. It permits you to have short codes for writting. 
 
-For example writting: **.class#id** and tab key it will result in:
-	<div class="class id"></div>
+For example writting: **.class#id** and tab key it will result in: **<div class="class id"></div>**
+
 For a full guide I recommend the guide from Scotch.io [Scotch.io Emmet](https://scotch.io/tutorials/write-html-crazy-fast-with-emmet-an-interactive-guide)
 
 This is basically what you need to start, but you can search for more plugins in internet or in the [Package Control website](https://packagecontrol.io/).
