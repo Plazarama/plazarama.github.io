@@ -136,7 +136,7 @@ Now initialize the server in the port 3000 and print it in the console:
     
     
 So the final file is like this:
-
+{% highlight javascript %}
     var express = require('express');
     var app = express();
     
@@ -150,5 +150,5 @@ So the final file is like this:
     
       console.log('Example app listening at http://%s:%s', host, port);
     });
-
+{% endhighlight %}
 Now go to [http://localhost:3000/](http://localhost:3000/) and see what happens.
