@@ -94,6 +94,18 @@ Think we have a game and we want to add a new feature to this game like for exam
 
 ![Branchs](http://i.imgur.com/NlgiE1W.png)
 
+Create new branch named *feature_score*:
+
+	git checkout -b feature_score
+
+Now in the git bash we can see we are in the feature_score branch. Now add the score to the game (we're going to create just a txt file), add it, commit to the branch and push it:
+	
+    touch score.txt
+    git add score.txt
+    git commit -m "added score"
+    git push origin feature_score
+
+
 
 ####To-do:
 	+ Branch
