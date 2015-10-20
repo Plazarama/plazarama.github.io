@@ -42,5 +42,10 @@ This is another time a decision of each one, but I like to use a different theme
 
 For installing it we are going to use the Package Control, so open the command palette *ctrl + shift + p* and type **Package Control: Install Package**. *Tip: You don't need to write the full sentence: just write some letters in it as 'packin'*. 
 
-Now find the theme **Theme - Spacegray** and hit Enter. 
+Now find the theme **Theme - Spacegray** and hit Enter. Wait for the installation. For activating it go to **Preferences>Settings - User** and add this to the settings file:
+
+	"theme": "Spacegray.sublime-theme",
+  	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
+
+This is a JSON file so remember to correctly add the commas at the end of each sentence (less the last one) or it won't work. 
 
