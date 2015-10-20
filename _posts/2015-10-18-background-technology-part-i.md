@@ -76,7 +76,7 @@ Now that we are tracking the changes, we should commit for have a log of the cha
 
 ##Creating a remote repository in Github
 
-Now we have to go to [Github](!github.com) and if we don't have an account we have to create one. Once created we're going to create a new repository. First click in the cross at the right-up corner and click in `New repository`. Give a name to the repository and a description and let the rest default. Now click on Create repository button. 
+Now we have to go to [Github](!github.com) and if we don't have an account we have to create one. Once created we're going to create a new repository. First click in the cross at the right-up corner and click in **New repository**. Give a name to the repository and a description and let the rest default. Now click on Create repository button. 
 
 ![Creating a new repo on github](http://i.imgur.com/3ZFaDrg.gif)
 
@@ -105,7 +105,7 @@ Now in the git bash we can see we are in the feature_score branch. Now add the s
     git commit -m "added score"
     git push origin feature_score
     
-To look what happend list the folder with `ls`. And you should see two files:
+To look what happend list the folder with **ls**. And you should see two files:
 	README.md
     score.txt
 
@@ -114,10 +114,10 @@ Now we're changing to the master branch, which en theorical doesn't have the sco
 	git checkout master
     ls
 
-Now when we list the folder again we only see the `README.md` file. That's it! We have a new feature. So if everything is working, now we are going to merge it into the master branch, so first we should change our active branch to the master, and use `git merge [branch]` to merge:
+Now when we list the folder again we only see the **README.md** file. That's it! We have a new feature. So if everything is working, now we are going to merge it into the master branch, so first we should change our active branch to the master, and use **git merge [branch]** to merge:
 
 	git checkout master
 	git merge feature_score
     
-Now we have the both branchs merged but locally, let's push to Github to the other users with `git push origin master`. 
+Now we have the both branchs merged but locally, let's push to Github to the other users with **git push origin master**. 
 
