@@ -7,6 +7,7 @@ title: "Background Technology I: Git and Github"
 
 
 
+
 In this post we will introduce the background technology involved in the project. This means: The technology which we are going to use to manage and develop the project, not the actual technology that runs the project.
 
 ##Version control: Git & Github
@@ -75,16 +76,16 @@ Now that we are tracking the changes, we should commit for have a log of the cha
 
 ###Creating a remote repository in Github
 
-Now we have to go to [Github](!github.com) and if we don't have an account we have to create one. Once created we're going to create a new repository. First click in the cross at the right-up corner and click in `New repository`. Give a name to the repository and a description and don't let the rest default. Now click on Create repository button. 
+Now we have to go to [Github](!github.com) and if we don't have an account we have to create one. Once created we're going to create a new repository. First click in the cross at the right-up corner and click in `New repository`. Give a name to the repository and a description and let the rest default. Now click on Create repository button. 
 
 ![Creating a new repo on github](http://i.imgur.com/3ZFaDrg.gif)
 
-And then, we have to tell to our local repository where have to upload the files (the remote repo), so you can copy the commands directly from the page after creating the repo:
+And then, we have to tell to our local repository where it has to upload the files (the remote repo), so you can copy the commands directly from the page after creating the repo:
 
 	git remote add origin https://github.com/[GITHUBNAME]/[REPONAME].git
 	git push -u origin master
     
-The first one adds the remote repository and the second one upload the files to Github.
+The first one adds the remote repository with the name `origin` and the second one upload the files to Github.
 
 ####To-do:
 	+ Branch
