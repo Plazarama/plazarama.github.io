@@ -20,4 +20,4 @@ Node.js is going to be our main platform at the server side. Download it from hi
 Open a bash and see if everything gone well trying to find the node version:
 	node -v
 
-You should see something like: *v4.2.1*
+You should see something like: *v4.2.1*. So we're in! 
