@@ -13,4 +13,5 @@ Let's setup our environment to work with it.
 
 #Node.js
 
-Node.js is going to be our main platform at the server side. Let's install it
+Node.js is going to be our main platform at the server side. Download it from his site [Node.js](!https://nodejs.org/), and install it.
+
