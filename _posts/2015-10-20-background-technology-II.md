@@ -11,7 +11,7 @@ Actually this is a decision of each one, but I recommend to use Sublime-Text as 
 
 Download it from here [Sublime-Text 3](http://www.sublimetext.com/3) and install it.
 
-### Install Package Control
+## Install Package Control
 
 The best of Sublime-Text are the plugins and the most are installable through the Package Controll. For installin it open the console from *View>Show Console* and paste this commands to it:
 
@@ -20,7 +20,7 @@ The best of Sublime-Text are the plugins and the most are installable through th
 
 Wait for the installation to finish and restart Sublime-Text. Now we have installed and we can start installing some plugins. But first lets know some useful Keyboard Shortcuts.
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 #### Command Palette
 	ctrl + shift + p
