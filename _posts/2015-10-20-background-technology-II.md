@@ -81,5 +81,8 @@ For managing the project and communicate between the team we are going to use th
 ## Share: Drive
 ![Drive](http://i.imgur.com/ZoqAdmv.jpg)
 We are going to use the Google's platform to create documents and share files between us.
-	
+
+## Communication: Slack
+![Slack](http://i.imgur.com/oklSzMm.png)
+Slack is a chat service for a teams
 
