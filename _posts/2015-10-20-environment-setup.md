@@ -113,7 +113,29 @@ You can see now express in the dependencies array.
 
 Furthermore we can install Express globally for use it wherever in our system. For example, there is a package called *Express Generator* that scaffolds an express application for us. 
 
-Let's go change our first app to use Express on it. Open the *index.js* file again and delete everything in it. Now write this:
+Let's go change our first app to use Express on it. Open the *index.js* file again and delete everything in it. 
+
+First require express and create and initialize it:
+
+    var express = require('express');
+    var app = express();
+After that, create one route for our application. This is, when the users goes to localhost:3000/ url we will send back 'Hello World!':    
+
+    app.get('/', function (req, res) {
+      res.send('Hello World!');
+    });
+    
+Now initialize the server in the port 3000 and print it in the console: 
+
+    var server = app.listen(3000, function () {
+      var host = server.address().address;
+      var port = server.address().port;
+    
+      console.log('Example app listening at http://%s:%s', host, port);
+    });
+    
+    
+So the final file is like this:
 
     var express = require('express');
     var app = express();
@@ -128,4 +150,4 @@ Let's go change our first app to use Express on it. Open the *index.js* file aga
     
       console.log('Example app listening at http://%s:%s', host, port);
     });
-    
+
