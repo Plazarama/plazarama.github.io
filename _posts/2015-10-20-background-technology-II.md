@@ -8,7 +8,6 @@ title: Background Technology II
 Actually this is a decision of each one, but I recommend to use Sublime-Text as your main editor. Is not free, but is not paid. You download an unlimited evaluation (is the full version) copy. So, actually you can pay for it or not.
 
 ## Install it
-
 Download it from here [Sublime-Text 3](http://www.sublimetext.com/3) and install it.
 
 ## Install Package Control
