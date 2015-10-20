@@ -6,6 +6,7 @@ Description: Installing the environment to start working.
 
 
 
+
 Our stack of development is going to be based in the MEAN Stack without the A for Angular. This is because Angular is a hard and difficult technology to learn and we think that what gives to us is not an essential plus to add it to the equation. 
 
 So we're going to use *Node.js, Express and MongoDB* in the backend and *HTML, CSS, Javascript(jQuery)* at the frontend. 
@@ -128,45 +129,45 @@ Let's go change our first app to use Express on it. Open the *index.js* file aga
 
 First require express and create and initialize it:
 {% highlight javascript %}
-    var express = require('express');
-    var app = express();
+var express = require('express');
+var app = express();
 {% endhighlight %}
 
 After that, create one route for our application. This is, when the users goes to localhost:3000/ url we will send back 'Hello World!':    
 {% highlight javascript %}
-    app.get('/', function (req, res) {
-      res.send('Hello World!');
-    });
+app.get('/', function (req, res) {
+res.send('Hello World!');
+});
 {% endhighlight %}
 
     
 Now initialize the server in the port 3000 and print it in the console: 
 {% highlight javascript %}
-    var server = app.listen(3000, function () {
-      var host = server.address().address;
-      var port = server.address().port;
-    
-      console.log('Example app listening at http://%s:%s', host, port);
-    });
+var server = app.listen(3000, function () {
+var host = server.address().address;
+var port = server.address().port;
+
+console.log('Example app listening at http://%s:%s', host, port);
+});
 {% endhighlight %}
 
     
 So the final file is like this:
 
 {% highlight javascript %}
-    var express = require('express');
-    var app = express();
-    
-    app.get('/', function (req, res) {
-    res.send('Hello World!');
-    });
-    
-    var server = app.listen(3000, function () {
-    var host = server.address().address;
-    var port = server.address().port;
-    
-    console.log('Example app listening at http://%s:%s', host, port);
-    });
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+res.send('Hello World!');
+});
+
+var server = app.listen(3000, function () {
+var host = server.address().address;
+var port = server.address().port;
+
+console.log('Example app listening at http://%s:%s', host, port);
+});
 {% endhighlight %}
 
 Now go to [http://localhost:3000/](http://localhost:3000/) and see what happens.
