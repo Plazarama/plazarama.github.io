@@ -10,11 +10,11 @@ title: "Background Technology I: Git and Github"
 
 In this post we will introduce the background technology involved in the project. This means: The technology which we are going to use to manage and develop the project, not the actual technology that runs the project.
 
-##Version control: Git & Github
+#Version control: Git & Github
 Git is the actual standard in distributed version control. This is easier when you see an example.
 
 
-###Setup Git
+##Setup Git
 
 Download Git: [git-scm](http://git-scm.com/)
 And install it. Is recommended to let the things in the installer as defaults.
@@ -46,7 +46,7 @@ And there are some basic Git commands to work with it:
 You can take a look at the very nice cheat sheet made by the guys from Github [Git Cheat-Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf).
 
 
-###Creating a new repo and adding something to it
+##Creating a new repo and adding something to it
 
 Let's create a new repository in our local machine. For this we're going to create a folder and create a new directory with Git:
 
@@ -74,7 +74,7 @@ Now that we are tracking the changes, we should commit for have a log of the cha
 
 	git commit -m "Init commit"
 
-###Creating a remote repository in Github
+##Creating a remote repository in Github
 
 Now we have to go to [Github](!github.com) and if we don't have an account we have to create one. Once created we're going to create a new repository. First click in the cross at the right-up corner and click in `New repository`. Give a name to the repository and a description and let the rest default. Now click on Create repository button. 
 
@@ -87,7 +87,7 @@ And then, we have to tell to our local repository where it has to upload the fil
     
 The first one adds the remote repository with the name *origin* and the second one upload the files to Github.
 
-###Branching
+##Branching
 Branching is a very useful concept to know. When we are using Git we are allways using a branch where our commits and stuff goes. By default this is the Master branch. 
 
 Think we have a game and we want to add a new feature to this game like for example the score of the game. So in order to do this we will create a new branch called for example *feature_score*. So now when we are in this branch all the stuff we made is not present in the *master* branch, so for example if we do some mistakes and break the game we can destroy this branch or change to the master branch and the game stil running (without the score, of course). Its a bit difficult to understand without seeing it, but let's try to get it with some examples.
