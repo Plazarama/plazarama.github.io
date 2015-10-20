@@ -23,19 +23,12 @@ Wait for the installation to finish and restart Sublime-Text. Now we have instal
 ### Keyboard Shortcuts
 
 #### Command Palette
-
 	ctrl + shift + p
-
 One of the most used commands. You can access everything from here: Installing plugins, using plugins, settings, changing syntax, snippets, etc.
-
 #### Fast file switching
-
-	ctrl + p
-    
+	ctrl + p    
 #### Multi select and edit
-
 	ctrl + d
-    
 #### Toggle Comment
 	ctrl + /
 #### Toggle sidebar
