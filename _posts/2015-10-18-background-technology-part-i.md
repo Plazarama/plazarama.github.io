@@ -1,8 +1,9 @@
 ---
 published: true
-description: Background technology guide
+description: Background technology guide.
 title: "Background Technology I: Git and Github"
 ---
+
 
 
 
@@ -119,5 +120,4 @@ Now when we list the folder again we only see the **README.md** file. That's it!
 	git checkout master
 	git merge feature_score
     
-Now we have the both branchs merged but locally, let's push to Github to the other users with **git push origin master**. 
-
+Now we have the both branchs merged but locally, let's push to Github to the other users with **git push origin master**.
