@@ -5,6 +5,7 @@ Description: Installing the environment to start working.
 ---
 
 
+
 Our stack of development is going to be based in the MEAN Stack without the A for Angular. This is because Angular is a hard and difficult technology to learn and we think that what gives to us is not an essential plus to add it to the equation. 
 
 So we're going to use *Node.js, Express and MongoDB* in the backend and *HTML, CSS, Javascript(jQuery)* at the frontend. 
@@ -30,6 +31,8 @@ Let's create a simple application: An http server. For this create a new folder 
     cd myapp
     npm init [follow the process]
     ctrl + c to exit at the end
+
+![npm init](http://i.imgur.com/arQobZz.gif)
 
 Now open the folder in sublime and create a new file called *index.js*. This is our main entry and our file to describe and run the http server.
 
@@ -79,5 +82,4 @@ Now on the bash (make sure we are in the folder of the project) type:
 
 	node index.js
 
-And in our browser (mine is Chrome) go to: [localhost:8081](localhost:8081). And see the output. 
-	
+And in our browser (mine is Chrome) go to: [localhost:8081](localhost:8081). And see the output.
