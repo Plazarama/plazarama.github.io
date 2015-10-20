@@ -65,5 +65,13 @@ For a full guide I recommend the guide from Scotch.io [Scotch.io Emmet](https://
 
 This is basically what you need to start, but you can search for more plugins in internet or in the [Package Control website](https://packagecontrol.io/).
 
+
+#The project management & communication
+
+For managing the project and communicate between the team we are going to use this software:
+
+## Organize: Trello
+
+[Trello](trello.com) is a plataform where you can create a board 
 	
 
