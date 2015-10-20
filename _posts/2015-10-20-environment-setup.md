@@ -30,5 +30,7 @@ Let's create a simple application: An http server. For this create a new folder 
     cd myapp
     npm init [follow the process]
     ctrl + c to exit at the end
+
+Now open the folder in sublime and create a new file called *index.js*.
 	
 	
