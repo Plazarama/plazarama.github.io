@@ -37,10 +37,13 @@ Let's create a simple application: An http server. For this create a new folder 
 Now open the folder in sublime and create a new file called *index.js*. This is our main entry and our file to describe and run the http server.
 
 First we need to require (like *using* in C#) the http module:
+{% highlight javascript %}
 
 	var http = require("http");
+{% highlight javascript %}
 
 After that we create the server and what happens when someone enters to it:
+{% highlight javascript %}
 
 	http.createServer(function (request, response) {
 
@@ -52,14 +55,18 @@ After that we create the server and what happens when someone enters to it:
    		// Send the response body as "Hello World"
    		response.end('Hello World\n');
 	}).listen(8081);	
-    
+{% highlight javascript %}
+
 The last line blinds the port *8081* to our app. Finally output on the console some info about the port: 
+{% highlight javascript %}
 
 	// Console will print the message
 	console.log('Server running at http://127.0.0.1:8081/');
+{% highlight javascript %}
 
 
 The final *index.js* file should be like this:
+{% highlight javascript %}
 
     var http = require("http");
     
@@ -76,7 +83,8 @@ The final *index.js* file should be like this:
     
     // Console will print the message
     console.log('Server running at http://127.0.0.1:8081/');
-    
+{% highlight javascript %}
+
 
 Now on the bash (make sure we are in the folder of the project) type:
 
@@ -94,6 +102,7 @@ For install it in our application do this:
 This will install Express in our application, the *--save* flag tells to npm to add it to the *package.json* file. The *package.json* file in addition to having data about our project also have de dependencies (the packages that need to be installed) of the project. 
 
 If we take a look now on the file we will see something like this:
+{% highlight javascript %}
 
     {
       "name": "httpserver",
@@ -109,6 +118,8 @@ If we take a look now on the file we will see something like this:
         "express": "^4.13.3"
       }
     }
+{% highlight javascript %}
+
 You can see now express in the dependencies array.
 
 Furthermore we can install Express globally for use it wherever in our system. For example, there is a package called *Express Generator* that scaffolds an express application for us. 
@@ -116,24 +127,29 @@ Furthermore we can install Express globally for use it wherever in our system. F
 Let's go change our first app to use Express on it. Open the *index.js* file again and delete everything in it. 
 
 First require express and create and initialize it:
-
+{% highlight javascript %}
     var express = require('express');
     var app = express();
-After that, create one route for our application. This is, when the users goes to localhost:3000/ url we will send back 'Hello World!':    
+{% highlight javascript %}
 
+After that, create one route for our application. This is, when the users goes to localhost:3000/ url we will send back 'Hello World!':    
+{% highlight javascript %}
     app.get('/', function (req, res) {
       res.send('Hello World!');
     });
+{% highlight javascript %}
+
     
 Now initialize the server in the port 3000 and print it in the console: 
-
+{% highlight javascript %}
     var server = app.listen(3000, function () {
       var host = server.address().address;
       var port = server.address().port;
     
       console.log('Example app listening at http://%s:%s', host, port);
     });
-    
+{% highlight javascript %}
+
     
 So the final file is like this:
 
