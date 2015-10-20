@@ -49,3 +49,23 @@ Now find the theme **Theme - Spacegray** and hit Enter. Wait for the installatio
 
 This is a JSON file so remember to correctly add the commas at the end of each sentence (less the last one) or it won't work. Restart Sublime and you have it.
 
+
+## Installing some plugins
+
+Here is a list of the plugins I use. All of them are installed through the Package Control, so for installing open the command palette and type: **Package Control: Install Package** and type the name of the package.
+
+#### SideBarEnhancements
+Add some functions to the sidebar as Open / Run, Open in browser, Open With, etc.
+#### BracketHighlighter
+Add hightlight to bracket in the code for viewing it easily.
+#### Emmet
+Powerful improvement for CSS and HTML. It permits you to have short codes for writting. 
+
+For example writting: **.class#id** and tab key it will result in:
+	<div class="class id"></div>
+For a full guide I recommend the guide from Scotch.io [Scotch.io Emmet](https://scotch.io/tutorials/write-html-crazy-fast-with-emmet-an-interactive-guide)
+
+This is basically what you need to start, but you can search for more plugins in internet or in the [Package Control website](https://packagecontrol.io/).
+
+	
+
