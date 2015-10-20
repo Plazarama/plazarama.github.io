@@ -72,4 +72,11 @@ The final *index.js* file should be like this:
     
     // Console will print the message
     console.log('Server running at http://127.0.0.1:8081/');
+    
+
+Now on the bash (make sure we are in the folder of the project) type:
+
+	node index.js
+
+And in our browser (mine is Chrome) go to: [localhost:8081](localhost:8081). And see the output. 
 	
