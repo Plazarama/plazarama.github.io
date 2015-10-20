@@ -1,8 +1,10 @@
 ---
-title:  "Plazarama Project"
-date:   2015-10-16
-description: Description of the project
+title: Plazarama Project
+date: 2015-10-16T00:00:00.000Z
+description: Description of the project.
+published: true
 ---
+
 
 This is the blog por the Plazarama Project. And what is this?
 
