@@ -40,7 +40,7 @@ First we need to require (like *using* in C#) the http module:
 {% highlight javascript %}
 
 	var http = require("http");
-{% highlightend %}
+{% endhighlight %}
 
 After that we create the server and what happens when someone enters to it:
 {% highlight javascript %}
@@ -55,14 +55,14 @@ After that we create the server and what happens when someone enters to it:
    		// Send the response body as "Hello World"
    		response.end('Hello World\n');
 	}).listen(8081);	
-{% highlightend %}
+{% endhighlight %}
 
 The last line blinds the port *8081* to our app. Finally output on the console some info about the port: 
 {% highlight javascript %}
 
 	// Console will print the message
 	console.log('Server running at http://127.0.0.1:8081/');
-{% highlightend %}
+{% endhighlight %}
 
 
 The final *index.js* file should be like this:
@@ -83,7 +83,7 @@ The final *index.js* file should be like this:
     
     // Console will print the message
     console.log('Server running at http://127.0.0.1:8081/');
-{% highlightend %}
+{% endhighlight %}
 
 
 Now on the bash (make sure we are in the folder of the project) type:
@@ -118,7 +118,7 @@ If we take a look now on the file we will see something like this:
         "express": "^4.13.3"
       }
     }
-{% highlightend %}
+{% endhighlight %}
 
 You can see now express in the dependencies array.
 
@@ -130,14 +130,14 @@ First require express and create and initialize it:
 {% highlight javascript %}
     var express = require('express');
     var app = express();
-{% highlightend %}
+{% endhighlight %}
 
 After that, create one route for our application. This is, when the users goes to localhost:3000/ url we will send back 'Hello World!':    
 {% highlight javascript %}
     app.get('/', function (req, res) {
       res.send('Hello World!');
     });
-{% highlightend %}
+{% endhighlight %}
 
     
 Now initialize the server in the port 3000 and print it in the console: 
@@ -148,7 +148,7 @@ Now initialize the server in the port 3000 and print it in the console:
     
       console.log('Example app listening at http://%s:%s', host, port);
     });
-{% highlightend %}
+{% endhighlight %}
 
     
 So the final file is like this:
