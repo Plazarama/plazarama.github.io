@@ -121,7 +121,3 @@ Now when we list the folder again we only see the `README.md` file. That's it! W
     
 Now we have the both branchs merged but locally, let's push to Github to the other users with `git push origin master`. 
 
-	
-    
-####To-do:
-	+ Branch
