@@ -108,18 +108,18 @@ If we take a look now on the file we will see something like this:
 {% highlight javascript %}
 
 {
-"name": "httpserver",
-"version": "1.0.0",
-"main": "index.js",
-"scripts": {
-"test": "echo \"Error: no test specified\" && exit 1"
-},
-"author": "Alex",
-"license": "ISC",
-"description": "simple http server",
-"dependencies": {
-"express": "^4.13.3"
-}
+  "name": "httpserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  		"test": "echo \"Error: no test specified\" && exit 1"
+   },
+  "author": "Alex",
+  "license": "ISC",
+  "description": "simple http server",
+  "dependencies": {
+  		"express": "^4.13.3"
+   }
 }
 {% endhighlight %}
 
