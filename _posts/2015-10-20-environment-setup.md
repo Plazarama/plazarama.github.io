@@ -187,6 +187,5 @@ We need a folder for MongoDB to save our data, as our is going to be for testing
 
 Now let's turn on our MongoDB server typing in the bash **mongod**. Anytime we want to access the database we have to write this in a console and let the window open, if not we will close the session and we couldn't access to the DB. So, now open a new bash window and type: **mongo**. We're now inside the db, working in the Test database. For creating one new write **use newtestdb**, and now we are working in the new db. 
 
-![vidoe](https://s3.amazonaws.com/img0.recordit.co/z1xSf4hFLi.mp4?AWSAccessKeyId=AKIAINSRFOQXTN4DT46A&Expires=1445427515&Signature=sEZ4I14MTgX7AiEYzjzlN%2BWCtQE%3D)
 
 
