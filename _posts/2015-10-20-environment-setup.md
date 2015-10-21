@@ -215,6 +215,12 @@ And for looking if is inserted correctly:
 And in the output we should see the user inserted before. We can also use a visual editor for mongo as [Robomongo](http://robomongo.org/). 
 
 
+# Joining the things together
+
+We want to add the *mongo* to our *express* app. So open the project again in sublime and let's make some changes. First we need to add a framework to manage the *mongo* database from our app. We're going to use *mongoose*, so let's install it with *npm*:
+
+	npm install mongoose --save
+
 
 
 
