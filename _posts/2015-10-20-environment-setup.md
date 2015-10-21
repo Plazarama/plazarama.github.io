@@ -221,7 +221,7 @@ We want to add the *mongo* to our *express* app. So open the project again in su
 
 	npm install mongoose --save
 
-Once is installed we need to modify the app, first we need to require mongoose and connect to the MongoDB database:
+Once is installed we need to modify the app. We are going to add new Users to our database, so first we need to require mongoose and connect to the MongoDB database:
 
 {% highlight javascript %}
 var mongoose = require('mongoose');
@@ -229,7 +229,70 @@ mongoose.connect('mongodb://localhost/test');
 
 {% endhighlight %}
 
+After that we must create a model for our Users: 
+
+{% highlight javascript %}
+var User = mongoose.model('User', { name: String});
+{% endhighlight %}
 	
+Now, we need to create a new Route for when we create a new User. Inside this Route we will get the parameter in the url *(req.params.user)* and create a new User object (from our Model). After that we will save it using the Mongoose function *save*. This function will return us an error or an user. One of the both will be null, if there is an error the user is null, if there is user the error will be null. So we only get one of the both, so let's comprove if there is any error or not, if not we send back the user created. 
+
+{% highlight javascript %}
+app.get('/:user', function (req, res){
+	var newUser = new User({name: req.params.user});
+	console.log('The user is: '+newUser);
+
+	newUser.save(function(error, user){
+		if(error)
+			console.log(error);
+		else
+			res.send(user);
+	});
+	
+	res.send(500);
+});
+
+{% endhighlight %}
+
+So the final file must be something like this:
+
+{% highlight javascript %}
+var express = require('express');
+var app = express();
+
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test');
+
+var User = mongoose.model('User', { name: String});
+
+app.get('/:user', function (req, res){
+	var newUser = new User({name: req.params.user});
+	console.log('The user is: '+newUser);
+
+	newUser.save(function(error, user){
+		if(error)
+			console.log(error);
+		else
+			res.send(user);
+	});
+	
+	res.send(500);
+});
+
+app.get('/', function (req, res) {
+  	res.send('Hello World!');
+});
+
+
+var server = app.listen(3000, function () {
+	var host = server.address().address;
+	var port = server.address().port;
+
+	console.log('Example app listening at http://%s:%s', host, port);
+});
+
+{% endhighlight %}
+
 
 
 
