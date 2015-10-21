@@ -138,7 +138,7 @@ var app = express();
 After that, create one route for our application. This is, when the users goes to localhost:3000/ url we will send back 'Hello World!':    
 {% highlight javascript %}
 app.get('/', function (req, res) {
-res.send('Hello World!');
+	res.send('Hello World!');
 });
 {% endhighlight %}
 
@@ -146,10 +146,10 @@ res.send('Hello World!');
 Now initialize the server in the port 3000 and print it in the console: 
 {% highlight javascript %}
 var server = app.listen(3000, function () {
-var host = server.address().address;
-var port = server.address().port;
-
-console.log('Example app listening at http://%s:%s', host, port);
+    var host = server.address().address;
+    var port = server.address().port;
+    
+    console.log('Example app listening at http://%s:%s', host, port);
 });
 {% endhighlight %}
 
@@ -161,14 +161,14 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-res.send('Hello World!');
+	res.send('Hello World!');
 });
 
 var server = app.listen(3000, function () {
-var host = server.address().address;
-var port = server.address().port;
-
-console.log('Example app listening at http://%s:%s', host, port);
+    var host = server.address().address;
+    var port = server.address().port;
+    
+    console.log('Example app listening at http://%s:%s', host, port);
 });
 {% endhighlight %}
 
