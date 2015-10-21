@@ -7,6 +7,7 @@ Description: Installing the environment to start working.
 
 
 
+
 Our stack of development is going to be based in the MEAN Stack without the A for Angular. This is because Angular is a hard and difficult technology to learn and we think that what gives to us is not an essential plus to add it to the equation. 
 
 So we're going to use *Node.js, Express and MongoDB* in the backend and *HTML, CSS, Javascript(jQuery)* at the frontend. 
@@ -171,3 +172,10 @@ console.log('Example app listening at http://%s:%s', host, port);
 {% endhighlight %}
 
 Now go to [http://localhost:3000/](http://localhost:3000/) and see what happens.
+
+
+#MongoDB
+MongoDB is going to be our database system. In difference from others like *mySql* or *SQL Express*, this is a no-SQL database which means that we won't use SQL queries or the common structure of the SQL databases with rows, columns, etc. MongoDB stores documents in JSON-like format. Is faster and easier to use, but its not suitable for all the applications where we want to have a huge amount of relation between documents because it became inconsistent. You can read more of *where don't use MongoDb* in [this](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/) article. 
+
+By the moment its suitable for our application because we are not going to make relations between the users, only save statics and data about themselfs. Also, we will use database to store games but not relationships between them or with the users, and if we do its not going to be the *big* thing in our app. 
+
