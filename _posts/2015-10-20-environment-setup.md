@@ -8,6 +8,7 @@ Description: Installing the environment to start working.
 
 
 
+
 Our stack of development is going to be based in the MEAN Stack without the A for Angular. This is because Angular is a hard and difficult technology to learn and we think that what gives to us is not an essential plus to add it to the equation. 
 
 So we're going to use *Node.js, Express and MongoDB* in the backend and *HTML, CSS, Javascript(jQuery)* at the frontend. 
@@ -47,44 +48,44 @@ First we need to require (like *using* in C#) the http module:
 After that we create the server and what happens when someone enters to it:
 {% highlight javascript %}
 
-	http.createServer(function (request, response) {
+http.createServer(function (request, response) {
 
-   		// Send the HTTP header 
-   		// HTTP Status: 200 : OK
-   		// Content Type: text/plain
-   		response.writeHead(200, {'Content-Type': 'text/plain'});
-   
-   		// Send the response body as "Hello World"
-   		response.end('Hello World\n');
-	}).listen(8081);	
+// Send the HTTP header 
+// HTTP Status: 200 : OK
+// Content Type: text/plain
+response.writeHead(200, {'Content-Type': 'text/plain'});
+
+// Send the response body as "Hello World"
+response.end('Hello World\n');
+}).listen(8081);	
 {% endhighlight %}
 
 The last line blinds the port *8081* to our app. Finally output on the console some info about the port: 
 {% highlight javascript %}
 
-	// Console will print the message
-	console.log('Server running at http://127.0.0.1:8081/');
+// Console will print the message
+console.log('Server running at http://127.0.0.1:8081/');
 {% endhighlight %}
 
 
 The final *index.js* file should be like this:
 {% highlight javascript %}
 
-    var http = require("http");
-    
-    http.createServer(function (request, response) {
-    
-       // Send the HTTP header 
-       // HTTP Status: 200 : OK
-       // Content Type: text/plain
-       response.writeHead(200, {'Content-Type': 'text/plain'});
-       
-       // Send the response body as "Hello World"
-       response.end('Hello World\n');
-    }).listen(8081);
-    
-    // Console will print the message
-    console.log('Server running at http://127.0.0.1:8081/');
+var http = require("http");
+
+http.createServer(function (request, response) {
+
+// Send the HTTP header 
+// HTTP Status: 200 : OK
+// Content Type: text/plain
+response.writeHead(200, {'Content-Type': 'text/plain'});
+
+// Send the response body as "Hello World"
+response.end('Hello World\n');
+}).listen(8081);
+
+// Console will print the message
+console.log('Server running at http://127.0.0.1:8081/');
 {% endhighlight %}
 
 
@@ -106,20 +107,20 @@ This will install Express in our application, the *--save* flag tells to npm to 
 If we take a look now on the file we will see something like this:
 {% highlight javascript %}
 
-    {
-      "name": "httpserver",
-      "version": "1.0.0",
-      "main": "index.js",
-      "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-      },
-      "author": "Alex",
-      "license": "ISC",
-      "description": "simple http server",
-      "dependencies": {
-        "express": "^4.13.3"
-      }
-    }
+{
+"name": "httpserver",
+"version": "1.0.0",
+"main": "index.js",
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"author": "Alex",
+"license": "ISC",
+"description": "simple http server",
+"dependencies": {
+"express": "^4.13.3"
+}
+}
 {% endhighlight %}
 
 You can see now express in the dependencies array.
@@ -185,7 +186,4 @@ MongoDB have to be run from the Command Line so for doing that we have to add th
 
 We need a folder for MongoDB to save our data, as our is going to be for testing and development pourposes we can create it on: **C:/data/db** (just create the two folders in C:/). 
 
-Now let's turn on our MongoDB server typing in the bash **mongod**. Anytime we want to access the database we have to write this in a console and let the window open, if not we will close the session and we couldn't access to the DB. So, now open a new bash window and type: **mongo**. We're now inside the db, working in the Test database. For creating one new write **use newtestdb**, and now we are working in the new db. 
-
-
-
+Now let's turn on our MongoDB server typing in the bash **mongod**. Anytime we want to access the database we have to write this in a console and let the window open, if not we will close the session and we couldn't access to the DB. So, now open a new bash window and type: **mongo**. We're now inside the db, working in the Test database. For creating one new write **use newtestdb**, and now we are working in the new db.
