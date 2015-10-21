@@ -179,3 +179,12 @@ MongoDB is going to be our database system. In difference from others like *mySq
 
 By the moment its suitable for our application because we are not going to make relations between the users, only save statics and data about themselfs. Also, we will use database to store games but not relationships between them or with the users, and if we do its not going to be the *big* thing in our app. 
 
+Let's move from this and let's install MongoDb. First go to [https://www.mongodb.org/](https://www.mongodb.org/) and downolad it. The common download is the *Windows 64-bit 2008 R2+* version if you are in a Windows 64bit based system. After downloading, open the installer and choose the *Custom* installation, and change the Location to *C:\mongodb*, and just click next. 
+
+MongoDB have to be run from the Command Line so for doing that we have to add the PATH of the executable to our Environment Variables in Windows. For doing this **rihgt-click on My Computer/This PC > Properties > Advanced System Settings > Advanced TAB > Environment Variables **, now search in the System Variables box the variable *Path* and click on *Edit* and add this to the end (each path should be separated by one semicolon, so make sure to write it before the C) **;C:\mongodb\bin**. Now accept everything and go to the bash (restart it if it was opened). Write **mongo** and it should show some data about our mongo app. If not we have done something wrong. 
+
+We need a folder for MongoDB to save our data, as our is going to be for testing and development pourposes we can create it on: **C:/data/db** (just create the two folders in C:/). 
+
+
+
+
