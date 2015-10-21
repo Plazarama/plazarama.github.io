@@ -221,7 +221,15 @@ We want to add the *mongo* to our *express* app. So open the project again in su
 
 	npm install mongoose --save
 
+Once is installed we need to modify the app, first we need to require mongoose and connect to the MongoDB database:
 
+{% highlight javascript %}
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test');
+
+{% endhighlight %}
+
+	
 
 
 
