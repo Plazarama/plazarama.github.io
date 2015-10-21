@@ -185,6 +185,7 @@ MongoDB have to be run from the Command Line so for doing that we have to add th
 
 We need a folder for MongoDB to save our data, as our is going to be for testing and development pourposes we can create it on: **C:/data/db** (just create the two folders in C:/). 
 
+Now let's turn on our MongoDB server typing in the bash **mongod**. Anytime we want to access the database we have to write this in a console and let the window open, if not we will close the session and we couldn't access to the DB. So, now open a new bash window and type: **mongo**. We're now inside the db, working in the Test database. For creating one new write **use newtestdb**, and now we are working in the new db. 
 
 
 
