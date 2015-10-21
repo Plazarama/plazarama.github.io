@@ -6,6 +6,7 @@ Description: Background technology part II.
 
 
 
+
 #The Editor: Sublime-Text 3
 Actually this is a decision of each one, but I recommend to use Sublime-Text as your main editor. Is not free, but is not paid. You download an unlimited evaluation (is the full version) copy. So, actually you can pay for it or not.
 
@@ -78,7 +79,7 @@ For managing the project and communicate between the team we are going to use th
 
 ![Trello](http://i.imgur.com/pKF6WP9.png)
 
-[Trello](trello.com) is a plataform where you can create a board and share it with the rest of the team. In this board you have cards and lists and you can see what is happening in a visual way. You can add dates, tags, checklists, images, etc. 
+[Trello](http://trello.com) is a plataform where you can create a board and share it with the rest of the team. In this board you have cards and lists and you can see what is happening in a visual way. You can add dates, tags, checklists, images, etc. 
 
 ## Share: Drive
 ![Drive](http://i.imgur.com/ZoqAdmv.jpg)
