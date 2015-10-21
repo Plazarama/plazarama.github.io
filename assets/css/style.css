@@ -188,8 +188,8 @@ li	{ list-style-type:circle; list-style-position:inside; }
 /* Line Height */
 #post-body, p { line-height:1.7; }
 
-b, strong { font-weight: 1000;
-  color: #1E2025; }
+b, strong { font-weight: 600;
+  color: #516066; }
 em, i { font-style: italic; }
 
 #title {
@@ -228,14 +228,14 @@ em, i { font-style: italic; }
 
 .post h1 {
 	margin-bottom: 20px;
-	color: #222;
+	color: #516066;
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
 	margin-bottom: 40px;
 	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
-	  color: #111;
+	  color: #516066;
 }
 
 
@@ -258,7 +258,7 @@ em, i { font-style: italic; }
 	margin-top: 2px;
 }
 
-h3, h4, h5 { color:#333; }
+h3, h4, h5 { color:#516066; }
 
 h3 { font-size:20px; font-weight: 400; }
 h4 { font-size:16px; font-weight:bold; }
@@ -388,7 +388,7 @@ Post List
 }
 
 #post-list a {
-	color: #333;
+	color: #516066;
 	display: block;
 	font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
