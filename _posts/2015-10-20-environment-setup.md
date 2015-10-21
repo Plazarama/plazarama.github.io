@@ -294,6 +294,10 @@ var server = app.listen(3000, function () {
 {% endhighlight %}
 
 
+Now let's start the app. Remember that we need to have **mongod** running before we start the app. When we have it, just type **node index.js** and we will have it running. Go to [http://localhost:3000/userName](http://localhost:3000/userName). And you we will create a new user called *userName*. Change the endpoint (the *userName* string) and we will create another user called whatever you want. 
+
+
+
 
 
 
