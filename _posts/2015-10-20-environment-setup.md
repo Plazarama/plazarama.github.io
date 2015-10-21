@@ -10,6 +10,7 @@ Description: Installing the environment to start working.
 
 
 
+
 Our stack of development is going to be based in the MEAN Stack without the A for Angular. This is because Angular is a hard and difficult technology to learn and we think that what gives to us is not an essential plus to add it to the equation. 
 
 So we're going to use *Node.js, Express and MongoDB* in the backend and *HTML, CSS, Javascript(jQuery)* at the frontend. 
@@ -187,4 +188,35 @@ MongoDB have to be run from the Command Line so for doing that we have to add th
 
 We need a folder for MongoDB to save our data, as our is going to be for testing and development pourposes we can create it on: **C:/data/db** (just create the two folders in C:/). 
 
+## Running it and creating a database
+
 Now let's turn on our MongoDB server typing in the bash **mongod**. Anytime we want to access the database we have to write this in a console and let the window open, if not we will close the session and we couldn't access to the DB. So, now open a new bash window and type: **mongo**. We're now inside the db, working in the Test database. For creating one new write **use newtestdb**, and now we are working in the new db.
+
+## Adding some stuff to our database
+
+We have a newdatabase, but anything in there, so we want to add something to it. If we want to add an user, for example:
+
+{% highlight javascript %}
+
+{
+    "username" : "alex",
+    "email" : "alex@alex.com"
+}
+{% endhighlight %}
+
+So, in order for doing this we have to type in the console this: 
+
+	db.usercollection.insert({ "username" : "alex", "email" : "alex@alex.com" })
+    
+And for looking if is inserted correctly:
+
+	db.usercollection.find().pretty()
+
+And in the output we should see the user inserted before. We can also use a visual editor for mongo as [Robomongo](http://robomongo.org/). 
+
+
+
+
+
+
+
