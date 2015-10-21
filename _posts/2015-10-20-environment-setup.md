@@ -296,8 +296,20 @@ var server = app.listen(3000, function () {
 
 Now let's start the app. Remember that we need to have **mongod** running before we start the app. When we have it, just type **node index.js** and we will have it running. Go to [http://localhost:3000/userName](http://localhost:3000/userName). And you we will create a new user called *userName*. Change the endpoint (the *userName* string) and we will create another user called whatever you want. 
 
+# Useful links and tutorials that you should take a look
 
+[ScotchIO - Express API](https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4): This is a must for our project. 
 
+[ScotchIO - Mongoose](https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications): Great to know how to work with mongoose.
 
+[ScotchIO - Authentication with Node](https://scotch.io/tutorials/easy-node-authentication-setup-and-local): We are going to use something similar to this.
+
+[ScotchIO - Single-App with Angular](https://scotch.io/tutorials/setting-up-a-mean-stack-single-page-application): Great for learning AngularJS.
+
+----
+
+[ExpressJS Documentation](http://expressjs.com/)
+
+[Mongoose Documentation](http://mongoosejs.com/)
 
 
