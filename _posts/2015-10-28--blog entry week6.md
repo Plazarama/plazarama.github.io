@@ -1,6 +1,6 @@
 ---
-published: true
-title: Blog entry week 6
+published: "true"
+title: Blog Entry Week 6
 ---
 
 
