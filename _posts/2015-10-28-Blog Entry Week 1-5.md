@@ -21,7 +21,7 @@ _By Aisling_
 
 **Week 4:**
 
-Alex joined our group and had lots of ideas for our project. We decided to do a plotter type project however then we all agreed it would be too diffuclt in our short timeframe. We then diccussed different ideas.
+Alex joined our group and had lots of ideas for our project. We decided to do a plotter type project however then we all agreed it would be too difficult in our short timeframe. We then dissuced different ideas.
 
 We settled on a web application game. Alex came up with the intial idea for our project. It is an online mulitplayer and multiscreen game. 
 
