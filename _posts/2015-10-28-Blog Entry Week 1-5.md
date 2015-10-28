@@ -1,7 +1,8 @@
 ---
-published: "true"
+published: true
 title: "Blog Entry Week 1-5"
 ---
+
 
 
 This is our blog entry for weeks 1-6 for our project.
@@ -56,8 +57,8 @@ This week we also got out _Github_ accounts set up and Alex gave us a quick tuto
 
 Alex also quickly went through _Express.js_ & _Node.js._
 
-We also set up out _Slack_ account which is a good as it  brings all our communication together in one place. We also set up a _Trello_ page to keep track of all our tasks
+We also set up out _Slack_ account which is a good as it  brings all our communication together in one place. We also set up a _Trello_ page to keep track of all our tasks.
+
+We also set out tasks to be done for next weeks meeting which would be during midterm break.
 
 _By Aisling_
-
-
