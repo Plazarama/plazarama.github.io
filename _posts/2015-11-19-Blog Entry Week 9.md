@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 Title: Blog Entry Week 9
 Published: "True"
 ---
