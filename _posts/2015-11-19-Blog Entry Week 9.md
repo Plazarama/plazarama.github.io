@@ -1,5 +1,7 @@
 ---
 published: false
+Title: Blog Entry Week 9
+Published: "True"
 ---
 
 ##Week 9 
@@ -12,3 +14,5 @@ We then decided that if we add the answers to the server aswell it can call the 
 We then decided on the end we should have the server and client screen looking the same.
 
 I also have designed our index in bootstrap and that it complete.
+
+
