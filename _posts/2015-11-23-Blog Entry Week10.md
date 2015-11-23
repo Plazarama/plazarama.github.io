@@ -15,7 +15,8 @@ We met up with fergal this week and we we really need to get more done on our pr
 
 I also got a basic "user profile page" done this week. Its just simple as I can style it later on.
 
-![Screenshot 2015-11-23 11.37.09.png]({{site.baseurl}}/_posts/Screenshot 2015-11-23 11.37.09.png)
+![User Profile]({{site.baseurl}}/_posts/User.jpg)
+
 
 
 _**- Aisling**_
