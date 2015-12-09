@@ -5,13 +5,16 @@ title: "Blog Entry Week 1-5"
 
 
 
+
 This is our blog entry for weeks 1-6 for our project.
 
 **Week 1:**
 
-This was our first official team meeting for our project. We organized a meeting place and talked thoroughly about any ideas we wanted to bring to the rest of the groups attention. Some of the ideas included an organisation website for students, a price comparison website and a betting website. At the end of the session we had narrowed it down to the organisation site.
+This was our first official team meeting for our project. We organized a meeting place and talked thoroughly about any ideas we wanted to bring to the rest of the groups attention. Some of the ideas included an organisation website for students, a price comparison website and a betting website. At the end of the session we had narrowed it down to the organisation site. We felt this would be most appropriate for the project 
+as it applies to students and we would be familiar with what this project should include
+to meet the needs of students. We decided it should be a website with social media aspects but also simaler to moodle and what that provides.
 
-_By Aisling_
+_By Aisling & Robert_
 
 **Week 2-3:**
 
@@ -21,13 +24,13 @@ _By Aisling_
 
 **Week 4:**
 
-Alex joined our group and had lots of ideas for our project. We decided to do a plotter type project however then we all agreed it would be too difficult in our short timeframe. We then dissuced different ideas.
+Alex joined our group and had lots of ideas for our project. We decided to do a plotter type project. However we all agreed that it would be too difficult in our short timeframe because this project would involve a lot of object oriented code and we wanted to do something with more client side work, this woud also invole using hardware we were not familiar with which would also need to be funded. We then dissuced different ideas.
 
-We settled on a web application game. Alex came up with the intial idea for our project. It is an online mulitplayer and multiscreen game. 
+We settled on a web application game. Alex came up with the intial idea for our project. It is an online mulitplayer and multiscreen game. Everyone had alot of different ideas for game we should make we thought it should be something easy going and simple to attract people to play it. We also discussed doing multiple games in the application.
 
 We met with our supervisor _(Fergal Keane)_ to discuss our project and he gave us some advice on what was required of the project.
 
-_By Aisling_
+_By Aisling & Robert_
 
 **Week 5:**
 
