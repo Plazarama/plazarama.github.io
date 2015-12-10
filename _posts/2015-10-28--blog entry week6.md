@@ -1,7 +1,8 @@
 ---
-published: "true"
+published: true
 title: Blog Entry Week 6
 ---
+
 
 
 ##Week 6
@@ -19,3 +20,8 @@ We have a new set of tasks for each of us to do this week. Our tasks are on our 
 Myself and Sinead sat down and discussed possible colour palettes. We decided on  flat ui design colors as we felt they would best suit our site. They are very minimal yet effective. We had a look on [Flat UI Colors](https://flatuicolors.com/) and also [Flat Colors](http://flatcolors.net/palettes) for some colour inspiration. 
 
 **_By Aisling_**
+
+
+This week I spent my time doing research on node.js and getting familiar with the technology. This involved looking up tutorials and learning git commands in git bash.
+
+**_By Robert_**
