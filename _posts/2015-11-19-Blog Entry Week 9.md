@@ -5,6 +5,7 @@ Published: "True"
 ---
 
 
+
 ##Week 9 
 We haven't got much done the past 2 weeks as we all have been busy with other college assigments. 
 
@@ -20,4 +21,4 @@ I also have designed our index in bootstrap and that it complete.
 
 I spent the last two weeks for the project still learning node.js. It took a while to get used to the javascript syntax again and the use of functions in the langauge. I done the local login for the app and got help from Alex to do the facebook login.
 
-
+**_By Robert_**
