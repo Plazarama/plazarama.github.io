@@ -4,6 +4,7 @@ Title: Blog Entry Week 9
 Published: "True"
 ---
 
+
 ##Week 9 
 We haven't got much done the past 2 weeks as we all have been busy with other college assigments. 
 
@@ -16,4 +17,7 @@ We then decided on the end we should have the server and client screen looking t
 I also have designed our index in bootstrap and that it complete.
 
 **_By Aisling_**
+
+I spent the last two weeks for the project still learning node.js. It took a while to get used to the javascript syntax again and the use of functions in the langauge. I done the local login for the app and got help from Alex to do the facebook login.
+
 
