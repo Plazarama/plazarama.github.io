@@ -7,6 +7,7 @@ title: "Blog Entry Week 1-5"
 
 
 
+
 This is our blog entry for weeks 1-6 for our project.
 
 **Week 1:**
@@ -27,6 +28,9 @@ Myself and Sinead met with Keith to discuss a possible 4th member joining our gr
 
 _By Aisling_
 
+Me and Ailsing met with keith. We cannot progress in anyways with the project without a fourth member but we are constantly talking over our idea and any flaws that could come with it. We have just heard there is foreign exchange students that are over and would be needing a group. Am delighted as i no they will be a great asset. So sitting and waiting until we hear more.
+
+By Sinead
 **Week 4:**
 
 Alex joined our group and had lots of ideas for our project. We decided to do a plotter type project. However we all agreed that it would be too difficult in our short timeframe because this project would involve a lot of object oriented code and we wanted to do something with more client side work, this woud also invole using hardware we were not familiar with which would also need to be funded. We then dissuced different ideas.
