@@ -25,3 +25,7 @@ I spent the last two weeks for the project still learning node.js. It took a whi
 
 **_By Robert_**
 
+Not alot of progress made as have been busy woth other assignment. hoping to get a start on the actuall building of pages from the wireframes w ehave drawn and go from there. Tasks are being set and the design is starting to take shape. We have after aot f discussion came up with the name PLAZARAMA. 
+
+By Sinead
+
