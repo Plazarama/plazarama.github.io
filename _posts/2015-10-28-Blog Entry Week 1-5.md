@@ -6,6 +6,7 @@ title: "Blog Entry Week 1-5"
 
 
 
+
 This is our blog entry for weeks 1-6 for our project.
 
 **Week 1:**
@@ -15,6 +16,10 @@ as it applies to students and we would be familiar with what this project should
 to meet the needs of students. We decided it should be a website with social media aspects but also simaler to moodle and what that provides.
 
 _By Aisling & Robert_
+
+We discussed what we would be capable to do as a team. as me and Aisling knew our capabilities and have worked together in previous projects we realised we needed a good hand on the back end so we met with robert to see what he could do. were missing a fourth member of the team so me and aisling have emailed Kieth to see if there is anyone without a team and could join us.
+
+By Sinead
 
 **Week 2-3:**
 
