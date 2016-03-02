@@ -41,6 +41,11 @@ We met with our supervisor _(Fergal Keane)_ to discuss our project and he gave u
 
 _By Aisling & Robert_
 
+Delighted with the new team member he really has some knowledge of alot of technologies and really seems to be a great worker. Alex decided on a multiplayer multiscreen game. i think its a great idea as it will bring fun and enjoyment (after completion of course!)
+We have discussed diffrent type games together as a group. Possibility of adding a mutidude of games. Fergal met with us to discuss what we thought. he seemed quite scepticle about the idea at first but think he sees the potential in Alex and what a great asset he is to the team. Feeling positive!
+
+By Sinead
+
 **Week 5:**
 
 We met again with Fergal and he discussed our project in further detail. He advised us on doing wireframes and user stories to gain a greater understanding of our project.
