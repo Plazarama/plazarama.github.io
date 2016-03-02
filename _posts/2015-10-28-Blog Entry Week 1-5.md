@@ -62,7 +62,7 @@ _**Sinead**_: Designer / Frontend work
 
 _By Aisling_
 
-We met up as a group today and finalised the project charter. We also did our user stories. We came up with quite a few user stories and this allowed us to understand and rethink a few things for our project. We have also done out our wireframes for our site. We set out tasks to be completed for next week.
+We met up as a group today and finalised the project charter. We also did our user stories. We came up with quite a few user stories and this allowed us to understand and rethink a few things for our project. We have also done out our wireframes for our game site. We set out tasks to be completed for next week.
 
 _By Sinead._
 
@@ -78,4 +78,4 @@ We also set up out _Slack_ account which is a good as it  brings all our communi
 
 We also set out tasks to be done for next weeks meeting which would be during midterm break.
 
-_By Aisling_
+_By Aisling_& Sinead
