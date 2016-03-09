@@ -8,6 +8,7 @@ title: "Blog Entry Week 1-5"
 
 
 
+
 This is our blog entry for weeks 1-6 for our project.
 
 **Week 1:**
@@ -16,11 +17,11 @@ This was our first official team meeting for our project. We organized a meeting
 as it applies to students and we would be familiar with what this project should include
 to meet the needs of students. We decided it should be a website with social media aspects but also simaler to moodle and what that provides.
 
-_By Aisling & Robert_
+_**By Aisling**_
 
 We discussed what we would be capable to do as a team. as me and Aisling knew our capabilities and have worked together in previous projects we realised we needed a good hand on the back end so we met with robert to see what he could do. were missing a fourth member of the team so me and aisling have emailed Kieth to see if there is anyone without a team and could join us.
 
-By Sinead
+_**By Sinead**_
 
 **Week 2-3:**
 
@@ -39,7 +40,7 @@ We settled on a web application game. Alex came up with the intial idea for our 
 
 We met with our supervisor _(Fergal Keane)_ to discuss our project and he gave us some advice on what was required of the project.
 
-_By Aisling & Robert_
+_By Aisling 
 
 Delighted with the new team member he really has some knowledge of alot of technologies and really seems to be a great worker. Alex decided on a multiplayer multiscreen game. i think its a great idea as it will bring fun and enjoyment (after completion of course!)
 We have discussed diffrent type games together as a group. Possibility of adding a mutidude of games. Fergal met with us to discuss what we thought. he seemed quite scepticle about the idea at first but think he sees the potential in Alex and what a great asset he is to the team. Feeling positive!
